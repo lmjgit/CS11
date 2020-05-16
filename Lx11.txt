@@ -27,7 +27,7 @@ C#企业级开发技术练习11答题卡
             foreach(var emp in emps)
             {
                 var (employeeId, employeeName, employeePay) = emp;
-                Console.WriteLine($"{employeeName}(emploteeId)工资:{employeePay}");
+                Console.WriteLine($"{employeeName}({employeeId})工资:{employeePay}");
             }
         }
 
